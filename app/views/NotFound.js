@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-const PageNotFound = () => (
+const NotFound = () => (
   <div className="not-found">
     <Helmet title="404" />
     <h1>Page Not Found.</h1>
@@ -10,4 +10,4 @@ const PageNotFound = () => (
   </div>
 );
 
-export default PageNotFound;
+export default NotFound;

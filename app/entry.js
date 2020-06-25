@@ -27,7 +27,7 @@ ReactDOM.render(
       <Route path="/resume" component={Resume} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
-    </Switch>
+    </Switch> 
   </Router>,
   document.getElementById('root'),
 );
